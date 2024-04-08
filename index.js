@@ -422,7 +422,7 @@ async function transcribe_gspeech(buffer) {
       const config = {
         encoding: 'LINEAR16',
         sampleRateHertz: 48000,
-        languageCode: 'en-US',  // https://cloud.google.com/speech-to-text/docs/languages
+        languageCode: 'ja-JP',  // https://cloud.google.com/speech-to-text/docs/languages
       };
       const request = {
         audio: audio,
